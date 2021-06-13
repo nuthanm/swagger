@@ -38,6 +38,30 @@ Once added the package in your webapi project, The following configuration add i
  5. Url to see the swagger is https://localhost:**yourport**/swagger/index.html
  6. To see detailed API Open API/Swagger information: https://localhost:**YourPortNumber**/swagger/v1/swagger.json
 
+## To activate XML Documentation
+
+Add this line inside .csprj file under <PropertyGroup>.
+  
+<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+Also add the following lines inside ConfigureServices method
+
+#### Include Namespaces
+  
+using System.Io
+  
+using System.Reflection
+  
+  
+// Set the comments path for the Swagger JSON and UI.
+  
+var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+  
+var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+  
+swagger.IncludeXmlComments(xmlPath);
+
+
 ## Reference Link
 https://docs.microsoft.com/en-us/learn/modules/improve-api-developer-experience-with-swagger/
 
