@@ -18,3 +18,9 @@ D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\staticwebassets\swaggerDemo.
 D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.dll
 D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.pdb
 D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.genruntimeconfig.cache
+D:\POCs\swagger\swaggerDemo\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\POCs\swagger\swaggerDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\POCs\swagger\swaggerDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\POCs\swagger\swaggerDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.MvcApplicationPartsAssemblyInfo.cs
+D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.csproj.CopyComplete

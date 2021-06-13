@@ -23,6 +23,10 @@ namespace swaggerDemo.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Returns sample weather forecast information.
+        /// </summary>
+        /// <returns>Weather Forecast information.</returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
@@ -34,6 +38,23 @@ namespace swaggerDemo.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        /// <summary>
+        /// Returns weather Information based on Summary
+        /// </summary>
+        /// <returns>Weather Forecast information.</returns>
+        [HttpGet("/summary")]
+        public WeatherForecast GetSingleWeather([FromQuery] string summary)
+        {
+            var rng = new Random();
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateTime.Now.AddDays(index),
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[rng.Next(Summaries.Length)]
+            })
+            .ToArray().FirstOrDefault(x=>x.Summary==summary);
         }
     }
 }
