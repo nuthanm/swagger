@@ -24,3 +24,5 @@ D:\POCs\swagger\swaggerDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagg
 D:\POCs\swagger\swaggerDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.MvcApplicationPartsAssemblyInfo.cs
 D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.csproj.CopyComplete
+D:\POCs\swagger\swaggerDemo\bin\Debug\netcoreapp3.1\swaggerDemo.xml
+D:\POCs\swagger\swaggerDemo\obj\Debug\netcoreapp3.1\swaggerDemo.xml

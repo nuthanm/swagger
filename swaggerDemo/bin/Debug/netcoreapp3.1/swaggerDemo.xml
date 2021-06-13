@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>swaggerDemo</name>
+    </assembly>
+    <members>
+        <member name="M:swaggerDemo.Controllers.WeatherForecastController.Get">
+            <summary>
+            Returns sample weather forecast information.
+            </summary>
+            <returns>Weather Forecast information.</returns>
+        </member>
+        <member name="M:swaggerDemo.Controllers.WeatherForecastController.GetSingleWeather(System.String)">
+            <summary>
+            Returns weather Information based on Summary
+            </summary>
+            <returns>Weather Forecast information.</returns>
+        </member>
+    </members>
+</doc>
