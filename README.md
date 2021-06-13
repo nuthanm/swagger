@@ -36,7 +36,7 @@ Once added the package in your webapi project, The following configuration add i
     });
  4. Build and run your code
  5. Url to see the swagger is https://localhost:**yourport**/swagger/index.html
-  
+ 6. To see detailed API Open API/Swagger information: https://localhost:**YourPortNumber**/swagger/v1/swagger.json
 
 ## Reference Link
 https://docs.microsoft.com/en-us/learn/modules/improve-api-developer-experience-with-swagger/
