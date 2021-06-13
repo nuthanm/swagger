@@ -41,8 +41,8 @@ Once added the package in your webapi project, The following configuration add i
 ## To activate XML Documentation
 
 Add this line inside .csprj file under <PropertyGroup>.
-  
-<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+GenerateDocumentationFile>true</GenerateDocumentationFile
 
 Also add the following lines inside ConfigureServices method
 
